@@ -28,5 +28,5 @@ app.use((req, res) => {
 
 const PORT = process.env.PORT || config.port;
 app.listen(PORT, () => {
-  console.log(`🚀[${config.appName}] Server running on port ${PORT}`);
+  console.log(`🚀[${config.appName}] Server running gracefully on port ${PORT}`);
 });
