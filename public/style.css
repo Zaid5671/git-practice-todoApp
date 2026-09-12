@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #72109a;
-    --bg-color: #f5f7fa;
+    --primary-color: #f5f7fa;
+    --bg-color: #222;
     --text-color: #333;
-    --border-color: #e1e4e8;
+    --border-color: #1b60ba;
     --item-bg: #fff;
     --completed-color: #999;
 }
@@ -26,7 +26,7 @@ body {
     width: 100%;
     max-width: 600px;
     background: var(--item-bg);
-    border-radius: 8px;
+    border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
